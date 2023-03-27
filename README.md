@@ -33,8 +33,7 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![App Screenshot](https://user-images.githubusercontent.com/63805002/227887620-73849ae2-2850-4f2e-bc14-bd884690e764.png)
 
 ## Tech Stack
 
