@@ -6,7 +6,7 @@ const { body, validationResult } = require("express-validator");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const nodemailer = require("nodemailer");
-import env from "dotenv";
+require('dotenv').config()
 
 //TODO Put this in environment variable file
 const JWT_SECRET = "$&THISISASECRET&$";
