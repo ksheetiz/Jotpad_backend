@@ -1,0 +1,24 @@
+{
+  "name": "jotpad-backend",
+  "version": "1.0.0",
+  "description": "jotpad - Your notebook on the cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "nodemailer": "^6.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
