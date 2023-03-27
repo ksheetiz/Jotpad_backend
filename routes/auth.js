@@ -6,6 +6,7 @@ const { body, validationResult } = require("express-validator");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const nodemailer = require("nodemailer");
+import env from "dotenv";
 
 //TODO Put this in environment variable file
 const JWT_SECRET = "$&THISISASECRET&$";
@@ -106,8 +107,8 @@ router.post(
       const transporter = nodemailer.createTransport({
         service: "hotmail",
         auth: {
-          user: "testccounteauth@outlook.com",
-          pass: "test69account@miniproject",
+          user: process.env.USER,
+          pass: process.env.PASS,
         },
       });
 
