@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-require('dotenv').config()
+import env from "dotenv";
 
 const connectToMongo = ()=>{
     mongoose.connect(process.env.mongoURI, ()=>{
